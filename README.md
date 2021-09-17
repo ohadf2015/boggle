@@ -1,5 +1,4 @@
-# analysis
-
+# boggle
 ## Project setup
 ```
 npm install
