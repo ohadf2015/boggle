@@ -20,6 +20,7 @@
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7",
     "vue": "^3.0.0",
+    "vue-i18n": "^9.1.7",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
@@ -32,7 +33,6 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
     "postcss-loader": "^3.0.0",
-
     "vue-cli-plugin-tailwindcss": "~0.1.1"
   },
   "eslintConfig": {
