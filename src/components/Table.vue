@@ -2,14 +2,14 @@
 <template>
   <div class="flex flex-col pt-2">
     <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-      <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+      <div class="py-2 align-middle inline-block min-w-full px-2 sm:px-6 lg:px-8">
         <div class="shadow overflow-hidden border-b  border-gray-200 sm:rounded-lg">
           <table class="min-w-full border divide-y divide-gray-200 border-collapse rounded-3xl ">
 
             <tbody class="bg-white divide-y divide-gray-200 ">
               <tr v-for=" (row, index) in tableData" :key="index">
                 <td onclick="" v-for=" (col, i) in row" :key="i"  class="py-3 whitespace-nowrap  border-gray-400">
-                  <div :class="{'animate-spin': animation}" class="text-8xl  text-gray-900">{{ col }}</div>
+                  <div :class="{'animate-spin': animation}" class="text-2xl  sm:text-8xl  text-gray-900">{{ col }}</div>
                  
                 </td>
               </tr>

@@ -1,8 +1,20 @@
 <template>
 
-    <!-- <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> -->
-  <router-view dir="rtl"/>
+
+<div>
+
+  <router-view class="hidden md:block" dir="rtl"/>
+  
+<div class="  md:hidden h-screen bg-gradient-to-tr from-blue-400 bg-blue-400 to-purple-400  flex flex-col justify-center items-center">
+<p class="px-6  text-white text-3xl">
+כדי לשחק את המשחק <strong class="animate-bounce block my-4 text-6xl">בוגל</strong>
+יש לשחק בו במסך מחשב
+</p>
+
+</div>
+  
+   </div>
+
 </template>
 
 
@@ -27,7 +39,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
- height:100vh
+  height: 100%;
 }
 
 #nav {

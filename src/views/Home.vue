@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-<!-- <Actions/> -->
+
     <Hero />
     
   </div>
@@ -10,14 +10,12 @@
 // @ is an alias to /src
 
 import Hero from '@/components/Hero.vue'
-// import Actions from '@/components/Actions.vue'
-// import Table from '@/components/Table.vue'
 
 export default {
   name: 'Home',
   components: {
     Hero,
-    // Actions
+
   
 
   }
@@ -25,7 +23,5 @@ export default {
 </script>
 
 <style scoped>
-.home{
-  height:100vh
-}
+
 </style>

@@ -1,14 +1,14 @@
 <template>
   <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
  
-     <div class="flex flex-col p-4 bg-neutral rounded-box text-neutral-content">
-    <span class="font-mono text-8xl countdown">
+     <div class="flex flex-col p-3 sm:p-4 bg-neutral rounded-box text-neutral-content">
+    <span class="font-mono text-6xl sm:text-8xl countdown">
       <span :style="sec"></span>
     </span>
         sec
     </div>
-  <div class="flex flex-col p-4 bg-neutral rounded-box text-neutral-content">
-    <span class="font-mono text-8xl countdown">
+  <div class="flex flex-col  p-3 sm:p-4 bg-neutral rounded-box text-neutral-content">
+    <span class="font-mono text-6xl sm:text-8xl countdown">
       <span :style="min"></span>
     </span>
         min
